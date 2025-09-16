@@ -1,7 +1,13 @@
 import { defineConfig } from "vite";
 import path from "path";
+import fullReload from 'vite-plugin-full-reload';
 
 export default defineConfig({
+  plugins: [
+    fullReload([
+      "./templates/**/*.html", // relative path to your theme files
+    ]),
+  ],
   root: path.resolve(__dirname, "src"),
   build: {
     outDir: path.resolve(__dirname, "dist"),
