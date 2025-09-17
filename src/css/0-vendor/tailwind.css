@@ -2,3 +2,4 @@
  * # Vendor: TailwindCSS
  * ============================================================================ */
 @import "tailwindcss";
+@source "./../../../templates/**.html";

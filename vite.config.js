@@ -1,11 +1,14 @@
 import { defineConfig } from "vite";
 import path from "path";
+
 import fullReload from 'vite-plugin-full-reload';
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
+    tailwindcss(),
     fullReload([
-      "./templates/**/*.html", // relative path to your theme files
+      "./templates/**/*.html",
     ]),
   ],
   root: path.resolve(__dirname, "src"),
