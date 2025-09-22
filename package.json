@@ -29,6 +29,10 @@
     "vite-plugin-live-reload": "^3.0.5"
   },
   "devDependencies": {
+    "@wordpress/blocks": "^15.4.0",
+    "@wordpress/components": "^30.4.0",
+    "@wordpress/editor": "^14.31.0",
+    "@wordpress/element": "^6.31.0",
     "typescript": "^5.9.2",
     "vite": "^7.1.5"
   }

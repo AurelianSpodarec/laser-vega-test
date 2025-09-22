@@ -1,0 +1,51 @@
+{
+  "apiVersion": 2,
+  "name": "laser-vega/test",
+  "title": "Test Block",
+  "category": "text",
+  "icon": "smiley",
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "subheading": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "source": "html",
+      "selector": "p"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "reverse": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "transparent"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css"
+}
